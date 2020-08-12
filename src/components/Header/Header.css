@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.header {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    align-items: center;
+    border-bottom: 1px solid #998989;
+}
+
+.header__grid {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+.header__icongrid{
+    margin-left: auto;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
