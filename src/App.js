@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
 
 import Header from './components/Header/Header'
-import WritingRoom from './components/WritingRoom/WritingRoom'
+import LetterList from './components/LetterList/LetterList'
 
 import './App.css';
 
@@ -13,7 +13,7 @@ function App() {
         <Header />
         <Switch>
           <Route path="/">
-            <WritingRoom />
+            <LetterList />
           </Route>
         </Switch>
       </Router>
